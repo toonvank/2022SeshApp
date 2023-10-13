@@ -1,3 +1,6 @@
+[DOWNLOAD HERE FOR ANDROID 10](https://github.com/toonvank/2022SeshApp/releases/download/Android10/com.seshwoods.bonealbumdownloadermobile-Signed.apk
+)
+
 # Project C# Mobile 2022-2023
 Name and email: **Van Kimmenade Anton (anton.vanKimmenade@STUDENT.PXL.BE)**
 
