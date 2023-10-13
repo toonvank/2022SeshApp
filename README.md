@@ -1,52 +1,45 @@
 # Project C# Mobile 2022-2023
-Naam en email: **Van Kimmenade Anton (anton.vanKimmenade@STUDENT.PXL.BE)**
+Name and email: **Van Kimmenade Anton (anton.vanKimmenade@STUDENT.PXL.BE)**
 
-Titel applicatie: **SESHApp**
+Application Title: **SESHApp**
 
-De SESHAPP is een app voor fans van TEAMSESH, met in het bijzonder voor fans van het bekendste lid, BONES. 
-In de app kunnen gebruikers alle albums van BONES in FLAC-formaat downloaden en luisteren, en ze 
-kunnen ook up-to-date blijven met hun kledinglijn. Het idee is gebaseerd op een bestaande app die 
-momenteel niet meer functioneel is (zie play store link bij bronnen). De muziekspeler is vanaf nul opgebouwd 
-en gebruikt alleen de Android.Media.MediaPlayer om media af te spelen. Hoewel de app zelf geen 
-mogelijkheid biedt om kleding te kopen, kan het gebruikers doorsturen naar de officiële website 
-waar ze kleding kunnen kopen. 
+The SESHAPP is an app for fans of TEAMSESH, especially for fans of the most famous member, BONES.
+In the app, users can download and listen to all BONES albums in FLAC format, and they can also stay up to date with their clothing line. The idea is based on an existing app that is currently no longer functional (see play store link in sources). The music player is built from scratch and uses only Android.Media.MediaPlayer to play media. Although the app itself does not offer the ability to purchase clothing, it can redirect users to the official website where they can make clothing purchases.
 
-**De SESHAPP biedt een handige en gemakkelijke manier 
-voor fans van TEAMSESH om hun favoriete muziek te luisteren en de laatste updates te zien van de 
-kledinglijn van de groep.**
+**The SESHAPP provides a convenient and easy way for TEAMSESH fans to listen to their favorite music and see the latest updates from the group's clothing line.**
 
-Opsomming belangrijkste kenmerken en onderdelen/features van de applicatie: 
-* Download BONES albums lokaal in hoge kwaliteit
-* Luister naar gedownloade albums en scrobble deze met <a href="https://www.last.fm" target="_blank">LastFm<a>
-* Overzicht van kledinglijn
-* Account aanmaken om likes bij te houden
+List of key features and components of the application:
+* Download BONES albums locally in high quality
+* Listen to downloaded albums and scrobble them with <a href="https://www.last.fm" target="_blank">LastFm<a>
+* Overview of clothing line
+* Create an account to keep track of likes
 
-# Logboek
-* 29/9/2022: Project aangemaakt
-* 2/10/2022: Basisfunctionaliteit album download af
-* 3/10/2022: Basic zoek functie gemaakt
-* 5/10/2022: Geprobeert compatibel te maken met iOS & Windows (niet gelukt)
-* 10/10/2022: Basic UI homepagina kleding
-* 11/10/2022: CarouselView toegevoegd
-* 15/10/2022: Kleding DetailPagina af & iconen/splashscreen gemaakt
-* 19/10/2022: Live currency aanpassing
+# Logbook
+* 29/9/2022: Project created
+* 2/10/2022: Basic album download functionality completed
+* 3/10/2022: Basic search function created
+* 5/10/2022: Attempted to make it compatible with iOS & Windows (unsuccessful)
+* 10/10/2022: Basic UI for clothing home page
+* 11/10/2022: Added CarouselView
+* 15/10/2022: Clothing Detail Page completed & icons/splash screen created
+* 19/10/2022: Live currency adjustment
 * 20/10/2022: Favorites list
-* 30/10/2022: Music player afgemaakt
-* 02/11/2022: MVVM folder structuur aangemaakt
-* 12/11/2022: MVVM folder structuur aangemaakt merch
-* 13/11/2022: Muziekspeler notificaties afgewerkt
-* 14/11/2022: Last.fm scrobbling afgewerkt
-* 15/11/2022: Betere scrobbling method & two way likes
-* 22/11/2022: Basis login functionaliteit
-* 27/11/2022: Registratie
-* 28/11/2022: Tweede database met extra persoonlijke gegevens & update account gestart
-* 5/12/2022: Albums via firebase inladen
-* 19/12/2022: Likes omzetten naar firebase
-* 29/12/2022 - 04/01/2023: Laatste bug fixes, polijsten van functionaliteiten en video opnemen
+* 30/10/2022: Music player completed
+* 02/11/2022: Created MVVM folder structure
+* 12/11/2022: Created MVVM folder structure for merchandise
+* 13/11/2022: Finished music player notifications
+* 14/11/2022: Finished Last.fm scrobbling
+* 15/11/2022: Improved scrobbling method & two-way likes
+* 22/11/2022: Basic login functionality
+* 27/11/2022: Registration
+* 28/11/2022: Second database with additional personal data & account update started
+* 5/12/2022: Loading albums via Firebase
+* 19/12/2022: Converting likes to Firebase
+* 29/12/2022 - 04/01/2023: Final bug fixes, polishing of features, and video recording
 <br><br>
 
-# Optioneel: Screenshots
-*Voorzie eventueel enkele screenshots van je app in actie.*
+# Optional: Screenshots
+*Include a few screenshots of your app in action if possible.*
 <div style="display: flex;flex-wrap: wrap">
   <p><img src="Screenshots/1.png" width="250"></p>
   <p><img src="Screenshots/2.png" width="250"></p>
@@ -60,14 +53,14 @@ Opsomming belangrijkste kenmerken en onderdelen/features van de applicatie:
   <p><img src="Screenshots/11.png" width="250"></p>
   <p><img src="Screenshots/8.png" width="250"></p>
   <p><img src="Screenshots/9.png" width="250"></p>
-  <p><img src="Screenshots/10.png" width="250"></p
+  <p><img src="Screenshots/10.png" width="250"></p>
   <p><img src="Screenshots/14.png" width="250"></p>
 </div>
 
-## Klik op de link hieronder om de video te bekijken!
+## Click the link below to watch the video!
 https://youtu.be/-TMKff5HjkA
 
-# Bronnen
+# Sources
 * CommunityToolkit https://github.com/CommunityToolkit/Maui
 * Inflatable.LastFM https://github.com/inflatablefriends/lastfm
 * Plugin.LocalNotification https://github.com/thudugala/Plugin.LocalNotification
@@ -77,8 +70,8 @@ https://youtu.be/-TMKff5HjkA
 * Icons https://labs.openai.com/
 * Album covers https://www.discogs.com/artist/1635814-Bones-28
 * Albums https://drive.google.com/drive/folders/1jXsM7lOWBs_cO5qVnOADachit38UaPgY?usp=share_link
-* Albums gedownload via https://deemix.app/gui, https://github.com/yaronzz/Tidal-Media-Downloader, https://www.freezerapk.pro/
-* XML Data Sources 
+* Albums downloaded via https://deemix.app/gui, https://github.com/yaronzz/Tidal-Media-Downloader, https://www.freezerapk.pro/
+* XML Data Sources
   * https://teamsesh.bigcartel.com/products.xml
   * https://teamseshmerchscraps.bigcartel.com/products.xml
   * https://www.supporttrees.com/products.xml
@@ -87,14 +80,14 @@ https://youtu.be/-TMKff5HjkA
 * Firesharp https://github.com/ziyasal/FireSharp
 * Plugin.LocalNotification https://github.com/thudugala/Plugin.LocalNotification
 * Currency Exchange API https://api.exchangerate.host
-* Video bekeken voor local push notifications https://youtu.be/dWdXXGa1_hI 
+* Watched video for local push notifications https://youtu.be/dWdXXGa1_hI
 
-# Gebaseerd op
-SESHAPP (muziekspeler en meer, app niet functioneel) : https://play.google.com/store/apps/details?id=org.teamsesh.seshapp <br>
-SESHstation (enkel radio en kleren) : https://play.google.com/store/apps/details?id=team.sesh.teamsesh
+# Based on
+SESHAPP (music player and more, app not functional): https://play.google.com/store/apps/details?id=org.teamsesh.seshapp <br>
+SESHstation (radio and clothing only): https://play.google.com/store/apps/details?id=team.sesh.teamsesh
 
-# Future work
-* Graag had ik een eigen radio geintegreerd in de app
-* Mogelijkheid om kleren via de app te kopen (niet mogelijk wegens dat ik niet de eigenaar van winkel ben)
-* App beschikbaar op iOS & Windows
-* Chat functie tussen gebruikers
+# Future Work
+* I would like to integrate my own radio into the app.
+* Ability to purchase clothing through the app (not possible because I am not the owner of the store).
+* App available on iOS & Windows.
+* Chat function between users.
