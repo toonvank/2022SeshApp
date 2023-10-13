@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BonesAlbumInfoApp.View.MyAccount"
+             Title="MyAccount">
+    <VerticalStackLayout Margin="25">
+        <Label x:Name="welcome" FontSize="Large"></Label>
+        <Label x:Name="email"></Label>
+        <Button x:Name="btnLogout" Margin="0,17,0,17" Text="Logout" Clicked="btnLogout_Clicked"></Button>
+        <Button x:Name="btnUpdate" Margin="0,0,0,17" Text="Update data" Clicked="btnUpdate_Clicked"></Button>
+        <Button x:Name="btnDelete" Margin="0,0,0,17" Text="Delete my account" Clicked="btnDelete_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>

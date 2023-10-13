@@ -1,0 +1,621 @@
+{
+  "Albums": [
+    null,
+    {
+      "AlbumName": "TUMBLRSINGLES",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=118SG7mM279TxPuKgM3TcTQFYwLqRfZuN&confirm=t",
+      "Image": "https://i1.sndcdn.com/avatars-000255798298-d0c7ep-t500x500.jpg",
+      "ReleaseDate": "2010"
+    },
+    {
+      "AlbumName": "COUSINEDDIE",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11DVi2YBQ3bRG4EZW8XmKMsVG9NJs-9aR&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-000180960857-hccvj3-t500x500.jpg",
+      "ReleaseDate": "2010"
+    },
+    {
+      "AlbumName": "BOREDOFEDUCATION",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11IOPAJB5a1MWf2ct7cYqp4YkNOTxOSa_&confirm=t.jpg",
+      "Image": "https://images.genius.com/d91ca94543e7277544a623fd1575e984.645x645x1.jpg",
+      "ReleaseDate": "2010"
+    },
+    {
+      "AlbumName": "THEGOODRATZ",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11p7rhZ4oUYPEw4Nc1ejzAc_mAKP1vfXN&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-QrWaYOXwPozEMSq5-VoSycg-t500x500.jpg",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "TEAMSESH",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11pWPg_pwrBHNhe0ewAG1ldfmy1sKqed2&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-000218216578-8esiq4-t500x500.jpg",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "STIFLER",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11lK1LHPFAt2Y1jPn2FvW6loZIFze6pl6&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-PiR44nPttlSzz4KP-9hMsVg-t500x500.jpg",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "RATLYFE",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11iTmd2vTifpFejOEzlYZqNmp1lhmbwGG&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-000287674712-binp4g-t500x500.jpg",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "RATBOY",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11hVZy_gO7hO7wZ176RpBAQYBRelcsjpa&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-000289582139-88nk3m-t500x500.jpg",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "MIDNIGHT12AM",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11h8Mt4Hk24lAj2ZYq-Y3ik7rzu_zz_z6&confirm=t",
+      "Image": "https://i.ibb.co/DgPfS3q/cover.jpg",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "LOCALSONLY",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11hBEqg6qhiB13zMYtmBoexulx5Xk4aK3&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-y9MEA8trPr6rjScS-SAq6uw-t500x500.jpg",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "HOWELL",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11aE36OuzcBufkS9Sajt22YNfuZn59mOs&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-000287139497-atjczn-t500x500.jpg",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "HOLYSMOKES",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11aBHxHobVt3vqqzrAXyj_72FsnO93EeX&confirm=t",
+      "Image": "https://i.ibb.co/5KQKFJW/host.png",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "DREAMCATCHER",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11_SkZKnoDrVkJTsYvnXjPpGJ5OOTHmC5&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-d8bxCpQED1MkWOrm-ASkpSA-t500x500.jpg",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "ATTABOY",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11CXWSsa1j1LzrBUIj_BGXE3Rz75hqKfP&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-000243024498-gyz66q-t500x500.jpg",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "ADAYATTHEGETTY",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11BxpluYkUQup5lMTcLZRw4j66qQEprfE&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-000246041695-f7nt88-t500x500.jpg",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "KNUCKLEHEAD",
+      "Artist": "Th@Kid",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=11BtunH_PHp6d2ataCYS8-xekoJfmdgYZ&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-000249561754-cb73f9-t500x500.jpg",
+      "ReleaseDate": "2011"
+    },
+    {
+      "AlbumName": "TYPICALRAPSHIT",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1jfazJJ6ChQpObVdRbi7b4I3RivYaI8wi&confirm=t",
+      "Image": "https://i.discogs.com/HqLqcPHZTaASNr14WoxpOUNiLNSqbMKqBDBR8HxuokU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTk5/MzYwLTE1NDk4MDg5/ODQtOTM0OC5wbmc.jpeg",
+      "ReleaseDate": "09-26-2012"
+    },
+    {
+      "AlbumName": "BLVCKNWHITE",
+      "Artist": "BONES&GRANDMILLY",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=123UGv0EGQqLIEx3tcLgeLDjkBAAxBt2H&confirm=t",
+      "Image": "https://i.discogs.com/QoDBHShkj12Gez2_e9QaoK62__AmzWyA195DakE40xk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NjYz/MzItMTQ1MjU4NDMz/My03OTc0LmpwZWc.jpeg",
+      "ReleaseDate": "11-21-2012"
+    },
+    {
+      "AlbumName": "BONES",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1J0Ml4hWBPgltRCVytLQwQRvxnaMwpSF-&confirm=t",
+      "Image": "https://i.discogs.com/UTcBgfx4Ww7fQv_ezlVf26rtfWPWG6x0LfCSiHQNPn0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NjYz/NDItMTQ1MjU4NDc1/MS0zODA5LmpwZWc.jpeg",
+      "ReleaseDate": "12-01-2012"
+    },
+    {
+      "AlbumName": "1MILLIONBLUNTS",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1DlYLRq6-xQrO4rUyAV8jq3UXMI9n-lU7&confirm=t",
+      "Image": "https://i.discogs.com/lhVrI6UzBo1BlqZO-DN7u0fbfdP5_gwpFvHo5b2IvOQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NjYz/MDUtMTQ1MjU4MzEw/MS03OTA0LmpwZWc.jpeg",
+      "ReleaseDate": "12-25-2012"
+    },
+    {
+      "AlbumName": "LIVINGLEGEND",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1_xjwcjUutxlL0-akfvFLSiP-aWQ9x-Ry&confirm=t",
+      "Image": "https://i.discogs.com/oREVm63KhBmz5XEMAKsBSDyFNvJsvC_Y4DuseLcfWIY/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzk0/OTYwLTE1MzQ0MDM4/MTQtOTAzMS5qcGVn.jpeg",
+      "ReleaseDate": "02-01-2013"
+    },
+    {
+      "AlbumName": "SATURN",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1KaQiQwDHG0V0pqH2pG5gGLNXv7A2oyjI&confirm=t",
+      "Image": "https://i.discogs.com/q8CcAzAsxIsXj3y9hBp-gbUniwY78msXR9CLA8SU5mg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjY2/NzgtMTQ2NDE4NTU4/NC05NzM5LmpwZWc.jpeg",
+      "ReleaseDate": "02-23-2013"
+    },
+    {
+      "AlbumName": "TEENAGER",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1mah7XAow2wtHWvHvb2M-Pxs7-zS0mD_x&confirm=t",
+      "Image": "https://i.discogs.com/qxq2y4Xh0Xi2ZbJt3znYe3Old51_3mWWRoJnmADcCyU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzk0/OTc5LTE1MzQ0MDQy/OTEtNTkyOC5qcGVn.jpeg",
+      "ReleaseDate": "03-31-2013"
+    },
+    {
+      "AlbumName": "LAME",
+      "Artist": "BONES&XAVIERWULF",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=13r9mQVkC9jbqMZzB1icXg8HNRLNiABY7&confirm=t",
+      "Image": "https://i.discogs.com/MN4VY_Ju38OpzFl2GlK0hd6TFrnZPn0R5reg3M3GYXc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMTgx/NjcwLTE0OTI5Nzc0/NDItOTE0Ny5qcGVn.jpeg",
+      "ReleaseDate": "06-06-2013"
+    },
+    {
+      "AlbumName": "CREEP",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1vDEjAooAz-n-M3Rzu0sPddK3vWs9wmyP&confirm=t",
+      "Image": "https://i.discogs.com/_oY3eo6r7GMrNiPPfNV3Sqr6aLz8uzVtZHJ8D7S1RAU/rs:fit/g:sm/q:90/h:600/w:585/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjQx/ODctMTQ2NDEyMjAx/My0xMjI3LmpwZWc.jpeg",
+      "ReleaseDate": "06-08-2013"
+    },
+    {
+      "AlbumName": "SCUMBAG",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1IyseiI_Bx65Dc2GtCW0iDNdxMlpPfBBk&confirm=t",
+      "Image": "https://i.discogs.com/yyfmd87HYG74Uf9RFjYmH9GtyP_xZ9-9AYAUnZKABa4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxMDAw/MzYtMTM4NDQ3Mzgz/NS05MDIxLmpwZWc.jpeg",
+      "ReleaseDate": "08-08-2013"
+    },
+    {
+      "AlbumName": "CRACKER",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1RAuDd1v02JvQIYSqg0D8KOPU5dBCA9k7&confirm=t",
+      "Image": "https://i.discogs.com/rg2qM7v5cFBjndQl4iDG44ZYvXLw1g6PKK5_LfV4TFY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwOTQ4/ODctMTQzMzYwNDI1/Ny00MjQzLmpwZWc.jpeg",
+      "ReleaseDate": "09-28-2013"
+    },
+    {
+      "AlbumName": "PAIDPROGRAMMING",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=18tYMbnBUkrEH_2xOAao2RLpOL1yAMHse&confirm=t",
+      "Image": "https://i.discogs.com/YMIeN0toYP9m6QMzmf6jn9yTvgnLMM97sx2vqtnc20A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjQz/MDItMTQ2NDEyMzc3/My01NDI4LnBuZw.jpeg",
+      "ReleaseDate": "11-01-2013"
+    },
+    {
+      "AlbumName": "UNDERGROUNDGODS",
+      "Artist": "BONES&NASTYMATT",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1tgLbbrF4URcd7em2Mzy2XIBSYUMTqsAU&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-000111473782-jk4yep-t500x500.jpg",
+      "ReleaseDate": "11-16-2013"
+    },
+    {
+      "AlbumName": "CAVES",
+      "Artist": "BONES&XAVIERWULF",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1zb1CNYKIyKC-ulmUdQpug3_NSG5vcXqE&confirm=t",
+      "Image": "https://i.discogs.com/BesjNR3nq9TjaNI1Y2mphsSspSY4-zoVvif2NWiclNA/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjQx/NTctMTQ2NDEyMTU3/My0yNDQwLmpwZWc.jpeg",
+      "ReleaseDate": "12-14-2013"
+    },
+    {
+      "AlbumName": "DEADBOY",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1z1iZV0hHXr2etMfy01bZrX0d00Sb3aqc&confirm=t",
+      "Image": "https://i.discogs.com/PrZ323DWpPPmfXVE9-iSZT_sz68r1CqSN7wHICGr9F8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyNjM2/NzgtMTQzNzQ5NjIw/My0yMzk2LmpwZWc.jpeg",
+      "ReleaseDate": "01-01-2014"
+    },
+    {
+      "AlbumName": "SEABEDS",
+      "Artist": "BONES&CHRISTRAVIS",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1efELEUPdEeNvjPG45t4D8xuKGnn2RV4b&confirm=t",
+      "Image": "https://i.discogs.com/w-9ijGVnq9GDx9B3yBpiDaFp_lg3nk2bEAtu2DLfdws/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyODA1/NDgtMTQzNzkxMjI2/Mi05NTY4LmpwZWc.jpeg",
+      "ReleaseDate": "01-28-2014"
+    },
+    {
+      "AlbumName": "TEENWITCH",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=15eBc8ZHiuVSmqUcm43CE8hyCrkoyhIFv&confirm=t",
+      "Image": "https://i.discogs.com/Y9ZcojxL1wPQShlpaakUBDULW59wN6Zd-2fzZi1wUUw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxNDA1/NDEtMTQzNDYzMzkz/Ny02NDk3LmpwZWc.jpeg",
+      "ReleaseDate": "02-25-2014"
+    },
+    {
+      "AlbumName": "GARBAGE",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1XzBH1BYcbyW9ZBTiv-Ho6w_-_RxJOna7&confirm=t",
+      "Image": "https://i.discogs.com/grPoJViS1cKcP_hqAuGboW4KAJ80mSyASSVZO38NJgA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxNDI4/MTctMTQxMzMzNDI2/OC0yNDM3LmpwZWc.jpeg",
+      "ReleaseDate": "06-08-2014"
+    },
+    {
+      "AlbumName": "SKINNY",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1Fsj4TSYDSU8uKA_8w1AIy2iqo1bEW0nU&confirm=t",
+      "Image": "https://i.discogs.com/CLYb3CXl7Dw8b4_qMkxVYRSbSnzbB1I_awsO2_tS3ZU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxNDI4/MzAtMTQxMzMzODE0/OS0xNjI2LmpwZWc.jpeg",
+      "ReleaseDate": "09-01-2014"
+    },
+    {
+      "AlbumName": "ROTTEN",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/file/d/1iIjVjJZJWPJGH68ozZ_fEJcfYjV2jpiH/view?usp=share_link",
+      "Image": "https://i.discogs.com/5-Q2ig1yKFsarcHHCJMrSpSUjj4ahZP-3fd4vDIDjJ4/rs:fit/g:sm/q:90/h:460/w:460/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyNDc2/NjctMTQzNzA5NTg0/MC04MDQzLmpwZWc.jpeg",
+      "ReleaseDate": "12-02-2014"
+    },
+    {
+      "AlbumName": "SOTHEREWESTOOD",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1qV4S6rHaOmhZiVrPGL6B4Q4P5RDjcmBS&confirm=t",
+      "Image": "https://i.discogs.com/9H2BUbsgBu5V5UGm77NTkce1EBN_ON_HLEVB63v2jps/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjY3/NDYtMTQ2NDE4Njc5/OS05MTM4LmpwZWc.jpeg",
+      "ReleaseDate": "01-05-2015"
+    },
+    {
+      "AlbumName": "SONGSTHATREMINDYOUOFHOME",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=19fOxIdLBAIWlGPfeYtFrjyeUtwDEpbh4&confirm=t",
+      "Image": "https://i.discogs.com/Epy1fuOJb2RQfWUZVIVXduyNc4x3xqUTck7iUXKnOqI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjY3/MTUtMTQ2NDE4NjIy/Ny0zMzM0LmpwZWc.jpeg",
+      "ReleaseDate": "02-02-2015"
+    },
+    {
+      "AlbumName": "YOUSHOULDHAVESEENYOURFACE",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1cvLlBQ1SzqUzEVsU8-hCWVqQpu_d26dK&confirm=t",
+      "Image": "https://i.discogs.com/qAC7gsAdha9PspE-05jyZI7Z6Tn0H-WtoOoByC5U3yg/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMzI2/NzcxLTE2MzIzMjAx/NTUtMjI5My5qcGVn.jpeg",
+      "ReleaseDate": "04-20-2015"
+    },
+    {
+      "AlbumName": "POWDER",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1nBV_QOhIjwLmlWBvJbodFP856PMsf9Cs&confirm=t",
+      "Image": "https://i.discogs.com/I27H_U_4ETyKGWHHeSPSb1EAu3kf1KDFXXg2Dt2w7vA/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjY2/MDgtMTQ2NDE4NDM0/NC0zMTE3LmpwZWc.jpeg",
+      "ReleaseDate": "05-10-2015"
+    },
+    {
+      "AlbumName": "HATETOBREAKITTOYOU",
+      "Artist": "BONES&DRIP-133",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1aXBHugxFLc0Ua0RGkx_hwrag1uv8klQr&confirm=t",
+      "Image": "https://i.discogs.com/BdFicj36B3Fn21kKRsR8jSKi_8QP8CdyxjSF1cbmOGU/rs:fit/g:sm/q:90/h:498/w:498/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjQy/NjgtMTQ2NDEyMzIx/Ni04OTQ0LnBuZw.jpeg",
+      "ReleaseDate": "06-08-2015"
+    },
+    {
+      "AlbumName": "BANSHEE",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1DrRQZUHi6dvdlW8EPTNk_nn__sbmIY-w&confirm=t",
+      "Image": "https://i.discogs.com/KHtNH2rnBq0J_M07ZgUyIYc3J_CenfAHAWGR2JMchls/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NjYz/MTktMTQ1MjU4Mzc3/My02ODg2LmpwZWc.jpeg",
+      "ReleaseDate": "08-23-2015"
+    },
+    {
+      "AlbumName": "FRAYED",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1EhvWl1MkmcdXkA6fcfwpM_8YoesB7Zg0&confirm=t",
+      "Image": "https://i.discogs.com/7g4a-PYscDJVLVS2o5wYLa9IMDmj1_QVS80ls81yPVM/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjQy/MTYtMTQ2NDEyMjUx/NC02OTI2LmpwZWc.jpeg",
+      "ReleaseDate": "09-26-2015"
+    },
+    {
+      "AlbumName": "HERMITOFEASTGRANDRIVER",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?expozt=download&id=14rerFuWDZFbbteqmuUOOrYgjynL5yVlV&confirm=t",
+      "Image": "https://i.discogs.com/DO1SF8GFi3KSctwK6_Hm2ppSIrxz5jPfptNZqRbj30M/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NjQy/ODItMTQ2NDEyMzQ5/OS0xNjgyLmpwZWc.jpeg",
+      "ReleaseDate": "10-30-2015"
+    },
+    {
+      "AlbumName": "SLAN",
+      "Artist": "BONES&CATSOUP&DREWTHEARCHITECT",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1wduGzvtXuZ9t8-FAPvZ6pCQhCOhQRpWe&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-000141668360-05vlb8-t500x500.jpg",
+      "ReleaseDate": "01-02-2016"
+    },
+    {
+      "AlbumName": "USELESS",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1A6Vhpcw9btQuO5MwVWDVVwHD32CtGIDw&confirm=t",
+      "Image": "https://i.discogs.com/YUnqZXC0uA97bMXVEdEmq4AvAYDK4An7HWuK0t9tfMg/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgxNDIw/NjYtMTQ1NTkyOTgz/MS01NDQzLmpwZWc.jpeg",
+      "ReleaseDate": "02-07-2016"
+    },
+    {
+      "AlbumName": "PAIDPROGRAMMING2",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1zV2rtMvLwyJ0VEFwVB1jT5P0QorICQUB&confirm=t",
+      "Image": "https://i.discogs.com/haA34SaztynLc2B4BvtSu16viXg2cTe5kjs9xiClQk4/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4NzEy/MjAtMTQ4NzcxMDEy/Mi05MTI5LmpwZWc.jpeg",
+      "ReleaseDate": "06-24-2016"
+    },
+    {
+      "AlbumName": "STEVEWILKOSTHROWSCHAIR.MP4",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1T9WigYnUwk2UwGCDaWrHgGOu4Di4mBoh&confirm=t",
+      "Image": "https://i.scdn.co/image/ab67616d0000b2733c2579d60329996657e630c0",
+      "ReleaseDate": "09-24-2016"
+    },
+    {
+      "AlbumName": "GOODFORNOTHING",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1rBPTwReoJbssgRBQSEolLyLZU2ZgkAwW&confirm=t",
+      "Image": "https://i.discogs.com/HWDcL_LAgVtlD0O_b5bLXn0u6Nrc48sTHPIuU3_6ipo/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5NjAz/NDAtMTQ4OTI1Njkx/Ny05Mjg0LmpwZWc.jpeg",
+      "ReleaseDate": "10-16-2016"
+    },
+    {
+      "AlbumName": "SOFTWAREUPDATE1.0",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1rpI5gzIA7H5d0uipj91gTT6qq-WFXZXv&confirm=t",
+      "Image": "https://i.discogs.com/OupFrvmLSGo39Vz2a0MnTieTxnQ6FSanC5alNItt4WE/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMzI2/MDg3LTE2MzIzMTU4/NTctMjIyNy5qcGVn.jpeg",
+      "ReleaseDate": "11-05-2016"
+    },
+    {
+      "AlbumName": "DISGRACE",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1eyQgGb3X1m49Wv8nvz8W_u_QUsS0Mu5O&confirm=t",
+      "Image": "https://i.discogs.com/ODG-jP62t17YkOZ2fHg-8v1pVFdIwZx6T0Nht7DIgXM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjgw/MTU3LTE1Mzk5MzU1/ODMtMjgxMC5qcGVn.jpeg",
+      "ReleaseDate": "01-11-2017"
+    },
+    {
+      "AlbumName": "UNRENDERED",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1Kq-fOdAXkCzio2hWk0NaNf_OTifELDU5&confirm=t",
+      "Image": "https://i.discogs.com/LVv51oBJ-aNJI3GDky0Czp-ZRonlVoW9hHsbtBfipmk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDMz/MTM2LTE0OTczMzEy/MDktNjY0Ny5qcGVn.jpeg",
+      "ReleaseDate": "05-20-2017"
+    },
+    {
+      "AlbumName": "NOREDEEMINGQUALITIES",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1yFr6LI0vrrOyvHlH6uR-fxoLiLcQQRMk&confirm=t",
+      "Image": "https://i.discogs.com/2uLkLu10EL_ue8K58eeZuUT_wWGxC6yMAQfC44genr0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzMz/OTE1LTE1MTQ0MjU1/NzctNzE4MC5qcGVn.jpeg",
+      "ReleaseDate": "06-15-2017"
+    },
+    {
+      "AlbumName": "FAILURE",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1GIcQuCDLY4Ju_dt_JgyL-gay-iWv9prO&confirm=t",
+      "Image": "https://i.discogs.com/9ZovRTvy5kObjaDXrnhBNtilNaDDsKwI5jrRLDMdtkM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzMy/MjM4LTE1MTQzOTgw/MDktMTcyOS5qcGVn.jpeg",
+      "ReleaseDate": "10-02-2017"
+    },
+    {
+      "AlbumName": "NETWORKUNKNOWN",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1ZlwqJXed4VdijUwIL5nl62Njv5W4zzZB&confirm=t",
+      "Image": "https://i.discogs.com/aKyQzAXfBzKfPnrJ1nLPevsqiDr0Xv7W8HMLxUd0ojE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjgw/MzA1LTE1Mzk5Mzg2/NjYtOTI0MS5qcGVn.jpeg",
+      "ReleaseDate": "11-01-2017"
+    },
+    {
+      "AlbumName": "THEVOICESOUTSIDEAREGETTINGLOUDER",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1w3eD-KWBkhXbNDGGJXLkuTesahGqCNiq&confirm=t",
+      "Image": "https://images.genius.com/521d28d9d25f275038c3376692f27d3d.1000x1000x1.jpg",
+      "ReleaseDate": "11-10-2017"
+    },
+    {
+      "AlbumName": "OHNO",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1eKUGTcAN-IaSfXp7wT7s708iNwdZ4w-o&confirm=t",
+      "Image": "https://i.discogs.com/i3m7Nf-rQSSGIK8NaKT5xh0R9yvBozps_2z3F_51t90/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjc4/ODY3LTE2MzE5NzQw/NDYtNDUwNS5qcGVn.jpeg",
+      "ReleaseDate": "01-03-2018"
+    },
+    {
+      "AlbumName": "RIGORMORTIS",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1t78JD2RUyj5Llc-TnXhZPII8g50JdOoC&confirm=t",
+      "Image": "https://i.discogs.com/wvJbTU6QnxelqEJG1XE1OA6EOSXO7EQS8B-xEYmoVzw/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjc4/OTQ4LTE2MzE5NzQz/MDQtNjA1OS5qcGVn.jpeg",
+      "ReleaseDate": "01-14-2018"
+    },
+    {
+      "AlbumName": "CARCASS",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1mEHTFiTBLyDjelDLhtMT71KTy-2ahm9-&confirm=t",
+      "Image": "https://i.discogs.com/W8FsAzqbUBsWP4EN3-p5u9TvPt4AGaFSdkE0g0y0J7c/rs:fit/g:sm/q:90/h:355/w:355/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzMz/OTg0LTE1MTQ0Mjc1/NjUtNDk5NC5qcGVn.jpeg",
+      "ReleaseDate": "03-01-2018"
+    },
+    {
+      "AlbumName": "AUGMENTED",
+      "Artist": "BONES&CATSOUP",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1ReeYeVT3VKYd22jR8x65KlzZPaRM8KoQ&confirm=t",
+      "Image": "https://i.discogs.com/OIBefvxwVPizKNmATWdNvIYPPO10NEDxK2OZCPAx2RE/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjIy/MjY3LTE1MzA4MTQ0/MjctMjE5NC5qcGVn.jpeg",
+      "ReleaseDate": "04-21-2018"
+    },
+    {
+      "AlbumName": "PERMANENTFROWN",
+      "Artist": "BONES&",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1XDh5SjM1zGqSuuCcLACHJZqPNZmQlKTr&confirm=t",
+      "Image": "https://i.discogs.com/P6eO_YvJP8qEyH9uisxLF4kvRwI6jlVuWi81TN3xfKI/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDQy/ODgyLTE1MzUzODIx/MzMtMTUyMi5qcGVn.jpeg",
+      "ReleaseDate": "07-01-2018"
+    },
+    {
+      "AlbumName": "LIVINGSUCKS",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1JrY1quPUxQH8Eeg2hm0Dh1A2YHqBXjhT&confirm=t",
+      "Image": "https://i.discogs.com/q4gneRzyZzZVLqC_s9MTotmYTNLPPFt6jeUOhoJoY3Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDQ0/NzczLTE1MzU0MDkz/MjgtOTUyOC5qcGVn.jpeg",
+      "ReleaseDate": "08-13-2018"
+    },
+    {
+      "AlbumName": "THEMANINTHERADIATOR",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=18cCrp6qK9D5xnM03skH9wjTO-2ICSmrc&confirm=t",
+      "Image": "https://i.discogs.com/zLJ2obFAO1cp0kaaKRtkQr2XHtxFCm78KKSTa5bcUuk/rs:fit/g:sm/q:90/h:554/w:554/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzYw/NzMzLTE1NDE0MzEy/MzItNDM2Mi5qcGVn.jpeg",
+      "ReleaseDate": "11-01-2018"
+    },
+    {
+      "AlbumName": "VEGANLEATHER",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1DnSDuUp33IOAGeQW2Y5sH7HrJfZ8XZij&confirm=t",
+      "Image": "https://i.discogs.com/68qbzOUKiVJJbta8NM9bLMHHfpA6i1UF02VUTjEaF4I/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjUz/Njk0LTE2MzE4MDA5/MjUtMjMxMC5qcGVn.jpeg",
+      "ReleaseDate": "12-20-2018"
+    },
+    {
+      "AlbumName": "ENCODING",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=12j-JQYN_FaPJLx-XpEb0M5xkt3cikKmi&confirm=t",
+      "Image": "https://i1.sndcdn.com/artworks-000462111318-0h7c8s-t500x500.jpg",
+      "ReleaseDate": "12-21-2018"
+    },
+    {
+      "AlbumName": "STAYINGAHEADOFTHEWEATHER",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1pyRsrlBzbyxRDrwF74eFTsBaLtMJwSlb&confirm=t",
+      "Image": "https://images.genius.com/0aa8c52d3d9b8924394ecc693fe8c366.500x500x1.jpg",
+      "ReleaseDate": "12-25-2018"
+    },
+    {
+      "AlbumName": "SPARROWSCREEK",
+      "Artist": "BONES&EDDYBAKER",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1lb6s5usfUb7BUOCh8J5zeMO5bV49DFtD&confirm=t",
+      "Image": "https://i.discogs.com/rfpxeOXWiS3aRL0vycvmcwefsDxbmP_lX6Vy_Vrun2Q/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjEx/NTQ3LTE1NTA2MTU0/MzktNjg2Mi5qcGVn.jpeg",
+      "ReleaseDate": "02-11-2019"
+    },
+    {
+      "AlbumName": "UNDERTHEWILLOWTREE",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=165U-iuMATrlvpO4qeLDa8r5w1qrhdQTP&confirm=t",
+      "Image": "https://i.discogs.com/4WQ45fruWmdKhZWnODDmoGY7z5Iwc-j1uqWBWkyOe0A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzQ4/NDQwLTE2NDU4MzUx/ODEtMzg4Ni5qcGVn.jpeg",
+      "ReleaseDate": "03-03-2019"
+    },
+    {
+      "AlbumName": "KICKINGTHEBUCKET",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1j1PF53JNG60ywp1um544zUnpbSFw-MZw&confirm=t",
+      "Image": "https://i.discogs.com/iZESAzbqMulpp0AvnFNjaHPqJL2D7xsifIgYJnOnhQI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MDc3/MTU3LTE1Njc0MTQ1/OTgtNDE4Ni5wbmc.jpeg",
+      "ReleaseDate": "08-30-2019"
+    },
+    {
+      "AlbumName": "IFEELLIKEDIRT",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1OwMD0GFfHyoCgzl8n0MaaoyNnatRJozJ&confirm=t",
+      "Image": "https://i.discogs.com/DcT7c5QrcqRlfpa1A-NbfzkvJZnPkKl8-VdwrxO4hM0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODY4/ODk1LTE1ODMxNDE4/MDMtNzMwMS5qcGVn.jpeg",
+      "ReleaseDate": "11-29-2019"
+    },
+    {
+      "AlbumName": "OFFLINE",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1guxrZzyUjNymxvjlvM1jCldEB-WTRRAq&confirm=t",
+      "Image": "https://i.discogs.com/_U7U-mvJr6hbCgRjwKK-fG2_i_vJFdNUkXw1SEJx_2s/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODY4/OTM0LTE1ODMxNDI1/NTUtOTc4MC5qcGVn.jpeg",
+      "ReleaseDate": "02-23-2020"
+    },
+    {
+      "AlbumName": "BRACE",
+      "Artist": "BONES&XAVIERWULF",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1Mvpd3SzicOWzuLiTe6s27ClfBMgJ_6he&confirm=t",
+      "Image": "https://i.discogs.com/PR3cRPxMv60KsqWIDzsz5lltJadwd1HIxm1la7UB7L0/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjE4/ODgyLTE2MzE1NDQ4/MzktNTY5NC5qcGVn.jpeg",
+      "ReleaseDate": "03-02-2020"
+    },
+    {
+      "AlbumName": "ITSAWONDERFULLIFE",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1NaNejoqD_FCyCBlcr3mqizVncEbg8iTg&confirm=t",
+      "Image": "https://i.discogs.com/f75XqAZu1tVzfGz5dya8pTY5n_gMKjmIqbbRKKHgAXQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjQy/NDI5LTE2MzE3MTg4/MjgtOTk2OC5qcGVn.jpeg",
+      "ReleaseDate": "04-01-2020"
+    },
+    {
+      "AlbumName": "LIFEASAMELODY",
+      "Artist": "BONES&XAVIERWULF",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1cXXb5_S227f35gdUtL4xEkNYSd1Kv1E8&confirm=t",
+      "Image": "https://drive.google.com/uc?export=download&id=1cXXb5_S227f35gdUtL4xEkNYSd1Kv1E8&confirm=t",
+      "ReleaseDate": "04-05-2020"
+    },
+    {
+      "AlbumName": "DAMAGEDGOODS",
+      "Artist": "BONES&DREWTHEARCHITECT",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1FqpwpZayuklwmr5MqcPAzbOXtc2wsqrk&confirm=t",
+      "Image": "https://i.discogs.com/MUOXzAEk7PlyMOp50TN44UWwH8GJHaVzhN2opLb9lmg/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjA3/MjI3LTE2MzE0NTc5/MzgtNDMyMS5qcGVn.jpeg",
+      "ReleaseDate": "04-20-2020"
+    },
+    {
+      "AlbumName": "REMAINS",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1ajE0jB15_V8RXzD0ruOg9Ocpvv-caBxI&confirm=t",
+      "Image": "https://i.discogs.com/pFe19MS4B4EUrNyfz0OoTCFHCRWykBHzR3uQNTA9x_I/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMjA2/OTM5LTE2MzE0NTYx/OTEtOTUyNy5qcGVn.jpeg",
+      "ReleaseDate": "05-30-2020"
+    },
+    {
+      "AlbumName": "FROMBEYONDTHEGRAVE",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1DwZWofcISkW6-En8KAZ3KZtuoJhlR_SE&confirm=t",
+      "Image": "https://i.discogs.com/QFWg5-jfD2ZwSuDiWis_qf0xk-7qu_ekabj21i6LzDE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTgx/Mjg5LTE2MzEyNzQ1/ODMtMjU3Ni5qcGVn.jpeg",
+      "ReleaseDate": "11-06-2020"
+    },
+    {
+      "AlbumName": "BURDEN",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1--qJRpM6AiH0H9giTo5NOfkxrAZYEAg-&confirm=t",
+      "Image": "https://i.discogs.com/M6wPNRDKjfmAGeYrr0hnZ-LgzJfH7gXrFDcf691OkRo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTgw/OTc3LTE2MzEyNzI2/ODMtNjI0MS5qcGVn.jpeg",
+      "ReleaseDate": "01-19-2021"
+    },
+    {
+      "AlbumName": "PUSHINGUPDAISIES",
+      "Artist": "BONES&DEERGOD",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1bPNmB0WGnYu1U6RFAUY6eiFQaugsVc3K&confirm=t",
+      "Image": "https://i.discogs.com/bMHMY3bpjy9-xlbDnVuzURGSBqTm1EeccUwY5YAvWos/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTgw/NjYyLTE2MzEyNzEz/OTItNTkzMy5qcGVn.jpeg",
+      "ReleaseDate": "03-26-2021"
+    },
+    {
+      "AlbumName": "INLOVINGMEMORY",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1zPHL1G98tWeLqBbnrdMlOJA6zYqZCTNT&confirm=t",
+      "Image": "https://i.discogs.com/6-g3iu1vlD42WJpz9SHuhpXWRdhGoaPOLQDwUBu1fKc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMTcz/MTk4LTE2MzEyMDkw/MTQtMTA4OS5qcGVn.jpeg",
+      "ReleaseDate": "06-18-2021"
+    },
+    {
+      "AlbumName": "FORBIDDENIMAGE",
+      "Artist": "BONES&CATSOUP",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1MeLNByvb4eTT4t8yeUerjzyMJkmPI53p&confirm=t",
+      "Image": "https://i.discogs.com/BkO9yn6_FdPXAmkpMSuPwWBBWq4ls_BaX1p4Ev8I4PU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNjAy/NDA4LTE2MzQzNDEx/NzgtOTEzNy5qcGVn.jpeg",
+      "ReleaseDate": "10-15-2021"
+    },
+    {
+      "AlbumName": "SCRAPS",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1TzAxFcYRNixpr5M4hw6Xs2VXhnRhslzO&confirm=t",
+      "Image": "https://i.scdn.co/image/ab67616d00001e02cd65e44c3dbae60422086b56",
+      "ReleaseDate": "11-26-2021"
+    },
+    {
+      "AlbumName": "SILVERADO",
+      "Artist": "BONES&GHOST//GHOUL",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1vA-SbqZ3JTS4FyccVJ0x3FYUo5QCQNZm=download&confirm=t",
+      "Image": "https://cdn.albumoftheyear.org/album/547955-dreamcard.jpg",
+      "ReleaseDate": "04-01-2022"
+    },
+    {
+      "AlbumName": "THEONE",
+      "Artist": "BONES&GRAYERA",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1ySJH7Jh0-kVVt2xxA1YgSvhpFaA8jm1R&confirm=t",
+      "Image": "https://images.genius.com/278d15820d6ccb7560d2a88049e474ee.1000x1000x1.png",
+      "ReleaseDate": "04-18-2022"
+    },
+    {
+      "AlbumName": "WITHERED",
+      "Artist": "BONES&GRAYERA",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1uP0upOI9VRZOKoqW_joaQYE5nAJXg7hW&confirm=t",
+      "Image": "https://i.scdn.co/image/ab67616d00001e02c45f06609e6da7a9971ba2cc",
+      "ReleaseDate": "04-29-2022"
+    },
+    {
+      "AlbumName": "AMERICANSWEETHEART",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1yDEROuyi3kTr0oU_vjnoLPSrOzuM1JGk&export=download&confirm=t",
+      "Image": "https://audibletreats.com/wp-content/uploads/2022/07/bonesamericansweet.jpeg",
+      "ReleaseDate": "07-06-2022"
+    },
+    {
+      "AlbumName": "DREAMCARD",
+      "Artist": "BONES&GHOST//GHOUL",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1GXjxsfAS0ekypFPHzSOvhRNZ9XcrP50v&confirm=t",
+      "Image": "https://cdn.albumoftheyear.org/album/547955-dreamcard.jpg",
+      "ReleaseDate": "09-13-2022"
+    },
+    {
+      "AlbumName": "2MILLIONBLUNTS",
+      "Artist": "BONES",
+      "DownloadLink": "https://drive.google.com/uc?export=download&id=1Px6Q4vkUld-MdsveCUNf0654ctsQgTC9&confirm=t",
+      "Image": "https://t2.genius.com/unsafe/855x0/https%3A%2F%2Fimages.genius.com%2Ff7fe1802a7c4f30f65737f190ceb3ba6.1000x1000x1.jpg",
+      "ReleaseDate": "10-31-2022"
+    }
+  ]
+}

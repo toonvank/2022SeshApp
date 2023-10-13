@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BonesAlbumInfoApp.AlbumInfo"
+             Title="AlbumInfo"
+             xmlns:album="clr-namespace:BonesAlbumInfoApp">
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="Black">
+            <Frame Margin="12">
+                <VerticalStackLayout>
+                    <Image x:Name="imgImage" Source="{Binding Image}"/>
+                    <VerticalStackLayout Margin="0,20,0,0">
+                        <Label TextColor="Black" x:Name="lblDate" Text="{Binding ReleaseDate}"/>
+                        <Label TextColor="Black" x:Name="lblName" FontSize="25" Text="{Binding Title}"/>
+                        <Label TextColor="Black" Padding="0,2,0,0" x:Name="lblArtist"  FontSize="15" Text="{Binding Artist}"/>
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+            <Button Margin="13,35,13,4" WidthRequest="300" Clicked="Button_Clicked" x:Name="downloadButton" BackgroundColor="White" FontSize="20" TextColor="Black">
+                <Button.Text>DOWNLOAD</Button.Text>
+            </Button>
+            <Button x:Name="backButton" Margin="20" WidthRequest="300" Clicked="backButton_Clicked" BackgroundColor="White" FontSize="20" TextColor="Black">
+                <Button.Text>GO BACK</Button.Text>
+            </Button>
+            <ProgressBar x:Name="progressBar" IsVisible="false" TranslationY="20" Progress="0" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

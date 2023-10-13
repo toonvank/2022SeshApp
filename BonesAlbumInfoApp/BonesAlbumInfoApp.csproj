@@ -1,0 +1,175 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0-android</TargetFrameworks>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>BonesAlbumInfoApp</RootNamespace>
+		<UseMaui>true</UseMaui>
+		<SingleProject>true</SingleProject>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Display name -->
+		<ApplicationTitle>SESHAPP</ApplicationTitle>
+
+		<!-- App Identifier -->
+		<ApplicationId>com.seshwoods.bonealbumdownloadermobile</ApplicationId>
+		<ApplicationIdGuid>6A3BE9D8-2E53-46DE-B935-905C95763D97</ApplicationIdGuid>
+
+		<!-- Versions -->
+		<ApplicationDisplayVersion>1.1</ApplicationDisplayVersion>
+		<ApplicationVersion>2</ApplicationVersion>
+
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- App Icon -->
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" Color="#000000" TintColor="White">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</MauiIcon>		
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" />
+
+		
+		<!-- Splash Screen -->
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" BaseSize="270,270" Color="#FFFFFF" />
+
+		<!-- Images -->
+		<MauiImage Include="Resources\Images\*" />
+
+		<!-- Custom Fonts -->
+		<MauiFont Include="Resources\Fonts\*" />
+
+		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\AppIcon\appconfg.svg" />
+	  <None Remove="Resources\AppIcon\appicon.svg" />
+	  <None Remove="Resources\AppIcon\appiconfg.png" />
+	  <None Remove="Resources\AppIcon\appiconfg.svg" />
+	  <None Remove="Resources\Fonts\CloisterBlack.ttf" />
+	  <None Remove="Resources\Images\1.jpg" />
+	  <None Remove="Resources\Images\10.jpg" />
+	  <None Remove="Resources\Images\11.jpg" />
+	  <None Remove="Resources\Images\12.jpg" />
+	  <None Remove="Resources\Images\13.jpg" />
+	  <None Remove="Resources\Images\14.jpg" />
+	  <None Remove="Resources\Images\15.jpg" />
+	  <None Remove="Resources\Images\16.jpg" />
+	  <None Remove="Resources\Images\17.jpg" />
+	  <None Remove="Resources\Images\18.jpg" />
+	  <None Remove="Resources\Images\19.jpg" />
+	  <None Remove="Resources\Images\2.jpg" />
+	  <None Remove="Resources\Images\20.jpg" />
+	  <None Remove="Resources\Images\21.jpg" />
+	  <None Remove="Resources\Images\22.jpg" />
+	  <None Remove="Resources\Images\23.jpg" />
+	  <None Remove="Resources\Images\24.jpg" />
+	  <None Remove="Resources\Images\25.jpg" />
+	  <None Remove="Resources\Images\26.jpg" />
+	  <None Remove="Resources\Images\27.jpg" />
+	  <None Remove="Resources\Images\28.jpg" />
+	  <None Remove="Resources\Images\29.jpg" />
+	  <None Remove="Resources\Images\3.jpg" />
+	  <None Remove="Resources\Images\30.jpg" />
+	  <None Remove="Resources\Images\31.jpg" />
+	  <None Remove="Resources\Images\32.jpg" />
+	  <None Remove="Resources\Images\33.jpg" />
+	  <None Remove="Resources\Images\34.jpg" />
+	  <None Remove="Resources\Images\35.jpg" />
+	  <None Remove="Resources\Images\36.jpg" />
+	  <None Remove="Resources\Images\37.jpg" />
+	  <None Remove="Resources\Images\38.jpg" />
+	  <None Remove="Resources\Images\39.jpg" />
+	  <None Remove="Resources\Images\4.jpg" />
+	  <None Remove="Resources\Images\40.jpg" />
+	  <None Remove="Resources\Images\41.jpg" />
+	  <None Remove="Resources\Images\42.jpg" />
+	  <None Remove="Resources\Images\43.jpg" />
+	  <None Remove="Resources\Images\44.jpg" />
+	  <None Remove="Resources\Images\45.jpg" />
+	  <None Remove="Resources\Images\46.jpg" />
+	  <None Remove="Resources\Images\47.jpg" />
+	  <None Remove="Resources\Images\48.jpg" />
+	  <None Remove="Resources\Images\49.jpg" />
+	  <None Remove="Resources\Images\5.jpg" />
+	  <None Remove="Resources\Images\50.jpg" />
+	  <None Remove="Resources\Images\6.jpg" />
+	  <None Remove="Resources\Images\7.jpg" />
+	  <None Remove="Resources\Images\8.jpg" />
+	  <None Remove="Resources\Images\9.jpg" />
+	  <None Remove="Resources\Images\account.png" />
+	  <None Remove="Resources\Images\bag.png" />
+	  <None Remove="Resources\Images\bg.jpg" />
+	  <None Remove="Resources\Images\coolsesh.png" />
+	  <None Remove="Resources\Images\coolseshwashed.png" />
+	  <None Remove="Resources\Images\download.png" />
+	  <None Remove="Resources\Images\fetch.png" />
+	  <None Remove="Resources\Images\filledheart.png" />
+	  <None Remove="Resources\Images\filter.png" />
+	  <None Remove="Resources\Images\fm.png" />
+	  <None Remove="Resources\Images\fmlog.png" />
+	  <None Remove="Resources\Images\heart.png" />
+	  <None Remove="Resources\Images\moneyfilter.png" />
+	  <None Remove="Resources\Images\music.png" />
+	  <None Remove="Resources\Images\scraps.jpeg" />
+	  <None Remove="Resources\Images\seshbg.jpg" />
+	  <None Remove="Resources\Images\skipBac.png" />
+	  <None Remove="Resources\Images\skipFor.png" />
+	  <None Remove="Resources\Images\src.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="CodeHollow.FeedReader" Version="1.2.4" />
+	  <PackageReference Include="CommunityToolkit.Maui" Version="1.3.0" />
+	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+	  <PackageReference Include="CsvHelper" Version="28.0.1" />
+	  <PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
+	  <PackageReference Include="FireSharp" Version="2.0.4" />
+	  <PackageReference Include="Inflatable.Lastfm" Version="1.2.0" />
+	  <PackageReference Include="Plugin.LocalNotification" Version="10.0.2" />
+	  <PackageReference Include="SharpCompress" Version="0.32.2" />
+	  <PackageReference Include="SharpZipLib.Portable" Version="0.86.0.3" />
+	  <PackageReference Include="SpecFlow" Version="3.9.74" />
+	  <PackageReference Include="Xam.Plugins.DownloadManager" Version="1.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Resources\Styles\CustomStyles.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\Account.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\AlbumInfo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\DetailPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\Merch.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\MusicPlayer.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\MyAccount.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\myFavorites.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\Register.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\UpdateAccount.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Resources\Raw\" />
+	</ItemGroup>
+
+</Project>

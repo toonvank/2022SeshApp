@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BonesAlbumInfoApp.MusicPlayer"
+             xmlns:viewmodel="clr-namespace:BonesAlbumInfoApp.ViewModel"
+             Title="MusicPlayer"
+             x:DataType="viewmodel:MusicPlayerViewModel">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image Grid.Row="0"
+        Aspect="AspectFill"
+        Source="coolsesh.png" />
+        <VerticalStackLayout Margin="10" Grid.Row="0">
+            <ImageButton HeightRequest="22"  Margin="5,0,0,0" WidthRequest="45" x:Name="fetch" Clicked="fetch_Clicked" Source="fetch.png"/>
+            <Button Grid.Row="0" HeightRequest="20" BackgroundColor="Gray" TextColor="Wheat" BorderColor="Black"  BorderWidth="1" WidthRequest="20" x:Name="collapseAlbums" Clicked="collapseAlbums_Clicked" Padding="0" Text="x" TranslationX="150"></Button>
+            <Grid Margin="0" Padding="0" TranslationY="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="560*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button IsVisible="false" x:Name="GetAlbumTracksCommand" Command="{Binding GetAlbumTracksCommand}"></Button>
+                <Button IsVisible="false" x:Name="PlaySongCommand" Command="{Binding PlaySongCommand}"></Button>
+                <ScrollView x:Name="albumCol" Grid.Row="0" HeightRequest="150" WidthRequest="300">
+                    <CollectionView ItemsSource="{Binding DownloadedAlbums}">
+                        <CollectionView.EmptyView>
+                            <ContentView>
+                                <HorizontalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                                    <Label TextColor="White" Text="You haven't downloaded any albums yet"></Label>
+                                </HorizontalStackLayout>
+                            </ContentView>
+                        </CollectionView.EmptyView>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Button Text="{Binding}" BackgroundColor="Transparent" x:Name="albumSelection" Clicked="albumSelection_Clicked"></Button>
+                                    <Button Text="🗑️" BackgroundColor="Transparent" TranslationX="-144" WidthRequest="20" Padding="0" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MusicPlayerViewModel}}, Path=DeleteAlbumCommand}"
+                                CommandParameter="{Binding .}"></Button>
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </ScrollView>
+
+                <ScrollView x:Name="scrollTracks" Grid.Row="1" HeightRequest="150" Margin="0,0,0,20">
+                    <CollectionView ItemsSource="{Binding SongList}">
+                        <CollectionView.EmptyView>
+                            <ContentView>
+                                <HorizontalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                                    <Label x:Name="stubbornLabel" TextColor="White" Text="Please select an album from the list"></Label>
+                                </HorizontalStackLayout>
+                            </ContentView>
+                        </CollectionView.EmptyView>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <VerticalStackLayout Margin="0,3,0,3">
+                                    <Button CornerRadius="0" Text="{Binding}" BackgroundColor="Transparent" TextColor="Orange" x:Name="PlaySongCommand" Clicked="PlaySongCommand_Clicked"></Button>
+                                </VerticalStackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </ScrollView>
+                <Button HeightRequest="20" BackgroundColor="Gray" TextColor="Wheat" Grid.Row="1" WidthRequest="20" x:Name="collapseTracks" Clicked="collapseTracks_Clicked" Padding="0" Text="x" BorderColor="Black"  BorderWidth="1" TranslationX="150" TranslationY="-70"></Button>
+                <VerticalStackLayout x:Name="Controls" IsVisible="false" Grid.Row="2" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,0" HeightRequest="600">
+                    <Image HeightRequest="150" x:Name="img" Source="{Binding currentCover}" ></Image>
+                    <Label TextColor="White" x:Name="lblStubborn" FontSize="35" Margin="0,10,0,0" HorizontalOptions="Center" FontAutoScalingEnabled="True" TextTransform="Lowercase" FontFamily="CloisterBlack" Text="{Binding theCurrentSong}" HorizontalTextAlignment="Center"></Label>
+                    <Slider Minimum="0" Maximum="{Binding duration}" Margin="0,10,0,15" Value="{Binding songPosition}" MinimumTrackColor="Orange" MaximumTrackColor="White"></Slider>
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Button Margin="5,0,5,0" Text="|◀◀" WidthRequest="55" Padding="0" BackgroundColor="Black" BorderColor="White" BorderWidth="0.01" TextColor="White" Command="{Binding SkipBackCommand}"></Button>
+                        <Button Margin="5,0,5,0" Text="| |◀" WidthRequest="55" Padding="0" BackgroundColor="Black" BorderColor="White" BorderWidth="0.01" TextColor="White" Command="{Binding PreviousSongCommand}"></Button>
+                        <Button Margin="5,0,5,0" BackgroundColor="Black" WidthRequest="55" Padding="0" TextColor="White" BorderColor="White" BorderWidth="0.01" Text="{Binding StartStop}" x:Name="startStop" Command="{Binding StartSongCommand}"></Button>
+                        <Button Margin="5,0,5,0" Text="▶︎| |" BackgroundColor="Black" WidthRequest="55" Padding="0" TextColor="White" BorderColor="White" BorderWidth="0.01" Command="{Binding NextSongCommand}"></Button>
+                        <Button Margin="5,0,5,0" Text="▶︎▶︎|" BackgroundColor="Black" WidthRequest="55" HeightRequest="35" BorderColor="White" BorderWidth="0.01" Padding="0" TextColor="White" Command="{Binding SkipForwdCommand}"></Button>
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Grid.Row="0" HorizontalOptions="Center" Margin="0,15,0,0">
+                        <ImageButton Margin="0,0,15,0" x:Name="lastFm" Clicked="lastFm_Clicked" BackgroundColor="Transparent" HeightRequest="31" WidthRequest="31" Source="fm.png"></ImageButton>
+                        <ImageButton Grid.Row="0" x:Name="loveBtn" Clicked="loveBtn_Clicked" BackgroundColor="Transparent" HeightRequest="24" WidthRequest="24" Source="{Binding lovedTrack}"></ImageButton>
+                    </HorizontalStackLayout>
+                    <Button IsVisible="false" x:Name="HeartCommand" Command="{Binding HeartCommand}"></Button>
+                </VerticalStackLayout>
+            </Grid>
+        </VerticalStackLayout>
+        <AbsoluteLayout IsVisible="false" x:Name="loginLayout" Grid.Row="5" Grid.ColumnSpan="3" HeightRequest="200" WidthRequest="360" Margin="0,230,0,0">
+            <BoxView Color="Black"
+             CornerRadius="40"
+             WidthRequest="360"
+             HeightRequest="300"
+             VerticalOptions="End"
+             HorizontalOptions="Center" >
+            </BoxView>
+
+            <VerticalStackLayout WidthRequest="360" HeightRequest="300" TranslationY="15">
+                <Label HorizontalTextAlignment="Center" TextColor="White" Text="LastFM Login" Margin="0,0,0,7" />
+                <VerticalStackLayout x:Name="itemContent" IsVisible="true" WidthRequest="300">
+                    <Entry Placeholder="username" x:Name="username" HorizontalOptions="Center" TextColor="White" HorizontalTextAlignment="Center"></Entry>
+                    <Entry Placeholder="password" x:Name="password" HorizontalOptions="Center" TextColor="White" HorizontalTextAlignment="Center" IsPassword="True" ></Entry>
+                    <Button Command="{Binding LastFmCommand}" IsVisible="false" x:Name="lastFmCommand"></Button>
+                    <Button Command="{Binding LogoutCommand}" IsVisible="false" x:Name="logoutCommand"></Button>
+                    <Button Command="{Binding ReloadItemsCommand}" IsVisible="false" x:Name="ReloadItemsCommand"></Button>
+                    <Button x:Name="btnSave" Clicked="btnSave_Clicked" Text="Log in" WidthRequest="200" Margin="0,0,0,15"/>
+                </VerticalStackLayout>
+                <VerticalStackLayout x:Name="logout" Margin="0,0,0,10" WidthRequest="200" IsVisible="false">
+                    <Button Clicked="logoutButton_Clicked" IsVisible="true" x:Name="logoutButton" Text="Logout"></Button>
+                </VerticalStackLayout>
+                <Button Text="Close" x:Name="close" Clicked="close_Clicked" WidthRequest="200"></Button>
+            </VerticalStackLayout>
+        </AbsoluteLayout>
+        <ActivityIndicator Grid.RowSpan="4" Grid.ColumnSpan="5" x:Name="activity" Color="White"/>
+    </Grid>
+</ContentPage>

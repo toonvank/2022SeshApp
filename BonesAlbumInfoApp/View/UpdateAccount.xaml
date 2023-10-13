@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BonesAlbumInfoApp.View.UpdateAccount"
+             Title="UpdateAccount">
+    <VerticalStackLayout Margin="20">
+        <Entry Placeholder="email" x:Name="email" TextColor="Black" Margin="0,0,0,20" BackgroundColor="White"></Entry>
+        <Entry Placeholder="full name" x:Name="fullname" TextColor="Black" Margin="0,0,0,20" BackgroundColor="White"></Entry>
+        <Entry Placeholder="username" x:Name="username" TextColor="Black" Margin="0,0,0,20" BackgroundColor="White"></Entry>
+        <Entry IsPassword="True" Placeholder="confirm password" x:Name="password" TextColor="Black" Margin="0,0,0,20" BackgroundColor="White"></Entry>
+        <HorizontalStackLayout HorizontalOptions="Center" Margin="0,15,0,0">
+            <Button Text="Update" WidthRequest="120" x:Name="btnUpdate" Clicked="btnUpdate_Clicked"></Button>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

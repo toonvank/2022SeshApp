@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="BonesAlbumInfoApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:BonesAlbumInfoApp"
+    xmlns:view="clr-namespace:BonesAlbumInfoApp.View"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False">
+    
+    <TabBar x:Name="MyTabBar">
+        <Tab Title="DOWNLOAD" Icon="download.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage"/>
+        </Tab>
+        <Tab Title="MUSIC" Icon="music.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MusicPlayer}" Route="MusicPlayer"/>
+        </Tab>
+        <Tab Title="MERCH" Icon="bag.png">
+            <ShellContent ContentTemplate="{DataTemplate local:Merch}" Route="Merch"/>
+        </Tab>
+        <Tab Title="ACCOUNT" Icon="account.png">
+            <ShellContent ContentTemplate="{DataTemplate view:Account}" Route="Account"/>
+        </Tab>
+    </TabBar>
+</Shell>

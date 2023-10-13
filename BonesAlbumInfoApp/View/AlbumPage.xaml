@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BonesAlbumInfoApp.MainPage"
+             xmlns:models="clr-namespace:BonesAlbumInfoApp.Model"
+             xmlns:viewmodels="clr-namespace:BonesAlbumInfoApp.ViewModel"
+             x:DataType="viewmodels:AlbumPageViewModel"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#131212" StatusBarStyle="LightContent" />
+    </ContentPage.Behaviors>
+    <Grid RowDefinitions="*,Auto,Auto" IsClippedToBounds="True">
+        <Button x:Name="searchCommand" Command="{Binding SearchCommand}"></Button>
+        <Image Grid.Row="0" Grid.RowSpan="2"
+        Aspect="AspectFill"
+        Source="bg.jpg" />
+        <Frame Grid.Row="1" BackgroundColor="Black" HeightRequest="50" Padding="2,0,0,0" CornerRadius="4" WidthRequest="360">
+            <HorizontalStackLayout>
+                <SearchBar TextColor="Orange" BackgroundColor="Transparent" x:Name="search" Placeholder="Search items" TextChanged="Button_Clicked">
+                </SearchBar>
+                <ImageButton Source="filter.png" WidthRequest="25" CornerRadius="0" BackgroundColor="Transparent" Command="{Binding ReverseListCommand}"></ImageButton>
+            </HorizontalStackLayout>
+        </Frame>
+        
+        <!--<Button x:Name="updateList" Grid.Row="4" BackgroundColor="Black" HeightRequest="35" CornerRadius="0" Padding="0" Command="{Binding AddAlbumsCommand}">
+            <Button.Text>UPDATE ALBUMLIST</Button.Text>
+        </Button>-->
+        <CollectionView Grid.Row="0" x:Name="albumCollection" ItemsSource="{Binding albums}">
+            <CollectionView.EmptyView>
+                <ContentView>
+                    <StackLayout HorizontalOptions="CenterAndExpand"
+                             VerticalOptions="CenterAndExpand">
+                        <Label Text="No data to show."
+                           Margin="10,25,10,10"
+                           FontAttributes="Bold"
+                           FontSize="18"
+                           HorizontalOptions="Fill"
+                           HorizontalTextAlignment="Center" />
+                        <Label Text="Try updating the albumlist"
+                           FontAttributes="Italic"
+                           FontSize="12"
+                           HorizontalOptions="Fill"
+                           HorizontalTextAlignment="Center" />
+                    </StackLayout>
+                </ContentView>
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Album" x:Name="dtaData">
+                    <Frame BackgroundColor="Transparent"  Margin="17,8,17,5" BorderColor="PaleGoldenrod">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer 
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:AlbumPageViewModel}}, Path=GoToDetailCommand}"
+                                CommandParameter="{Binding .}"
+                                ></TapGestureRecognizer>
+                        </Frame.GestureRecognizers>
+                        <HorizontalStackLayout >
+                            <Frame Padding="0" CornerRadius="7">
+                                <Image HeightRequest="80" WidthRequest="80">
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer 
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:AlbumPageViewModel}}, Path=GoToDetailCommand}"
+                                CommandParameter="{Binding .}"
+                                ></TapGestureRecognizer>
+                                    </Image.GestureRecognizers>
+                                    <Image.Source>
+                                        <Binding Path="Image" />
+                                    </Image.Source>
+                                </Image>
+                            </Frame>
+                            <VerticalStackLayout Padding="18,9,9,9">
+                                <Label VerticalOptions="Center" TextColor="White" FontSize="10">
+                                    <Label.Text>
+                                        <Binding Path="ReleaseDate" />
+                                    </Label.Text>
+                                </Label>
+                                <Label VerticalOptions="Center" TextColor="White" FontSize="15">
+                                    <Label.Text>
+                                        <Binding Path="Artist" />
+                                    </Label.Text>
+                                </Label>
+                                <HorizontalStackLayout>
+                                    <Label VerticalOptions="Center" TextColor="Orange" FontSize="20">
+                                        <Label.Text>
+                                            <Binding Path="AlbumName" />
+                                        </Label.Text>
+                                    </Label>
+                                    <Button WidthRequest="20" HeightRequest="20" Clicked="btnDownload_Clicked" CornerRadius="3" x:Name="btnDownload" Opacity="0.6" FontSize="17" Padding="0,-2,0,0" Margin="7,0,0,0" TextColor="Black" FontAttributes="Bold" BackgroundColor="DarkGrey" HorizontalOptions="StartAndExpand">
+                                        <Button.Text>
+                                            ↓
+                                        </Button.Text>
+                                    </Button>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </HorizontalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <ProgressBar x:Name="progressBar" IsVisible="false" TranslationY="303" Progress="0" />
+    </Grid>
+</ContentPage>
